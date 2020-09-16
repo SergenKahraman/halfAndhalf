@@ -105,14 +105,14 @@
             this.txtUserLastName.Location = new System.Drawing.Point(73, 73);
             this.txtUserLastName.Name = "txtUserLastName";
             this.txtUserLastName.Size = new System.Drawing.Size(156, 20);
-            this.txtUserLastName.TabIndex = 2;
+            this.txtUserLastName.TabIndex = 1;
             // 
             // txtUserFirstName
             // 
             this.txtUserFirstName.Location = new System.Drawing.Point(73, 40);
             this.txtUserFirstName.Name = "txtUserFirstName";
             this.txtUserFirstName.Size = new System.Drawing.Size(156, 20);
-            this.txtUserFirstName.TabIndex = 2;
+            this.txtUserFirstName.TabIndex = 0;
             // 
             // label3
             // 

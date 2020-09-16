@@ -48,7 +48,7 @@
             this.btnAdd.Location = new System.Drawing.Point(141, 341);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(248, 75);
-            this.btnAdd.TabIndex = 16;
+            this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "EKLE";
             this.btnAdd.UseVisualStyleBackColor = true;
             // 
@@ -57,7 +57,7 @@
             this.txtExpenseName.Location = new System.Drawing.Point(141, 88);
             this.txtExpenseName.Name = "txtExpenseName";
             this.txtExpenseName.Size = new System.Drawing.Size(248, 20);
-            this.txtExpenseName.TabIndex = 14;
+            this.txtExpenseName.TabIndex = 1;
             // 
             // txtExplanation
             // 
@@ -66,14 +66,14 @@
             this.txtExplanation.Multiline = true;
             this.txtExplanation.Name = "txtExplanation";
             this.txtExplanation.Size = new System.Drawing.Size(248, 84);
-            this.txtExplanation.TabIndex = 15;
+            this.txtExplanation.TabIndex = 4;
             // 
             // dtpExpenseDate
             // 
             this.dtpExpenseDate.Location = new System.Drawing.Point(141, 136);
             this.dtpExpenseDate.Name = "dtpExpenseDate";
             this.dtpExpenseDate.Size = new System.Drawing.Size(248, 20);
-            this.dtpExpenseDate.TabIndex = 13;
+            this.dtpExpenseDate.TabIndex = 2;
             // 
             // label5
             // 
@@ -132,7 +132,7 @@
             this.cmbUsers.Location = new System.Drawing.Point(141, 38);
             this.cmbUsers.Name = "cmbUsers";
             this.cmbUsers.Size = new System.Drawing.Size(248, 21);
-            this.cmbUsers.TabIndex = 7;
+            this.cmbUsers.TabIndex = 0;
             // 
             // nudExpensePrice
             // 
@@ -145,7 +145,7 @@
             0});
             this.nudExpensePrice.Name = "nudExpensePrice";
             this.nudExpensePrice.Size = new System.Drawing.Size(248, 20);
-            this.nudExpensePrice.TabIndex = 6;
+            this.nudExpensePrice.TabIndex = 3;
             this.nudExpensePrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // frmNewExpense
