@@ -32,11 +32,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtUserFirstName = new System.Windows.Forms.TextBox();
-            this.txtUserLastName = new System.Windows.Forms.TextBox();
-            this.txtUserPassword = new System.Windows.Forms.TextBox();
             this.btnAddUser = new System.Windows.Forms.Button();
+            this.txtUserPassword = new System.Windows.Forms.TextBox();
+            this.txtUserLastName = new System.Windows.Forms.TextBox();
+            this.txtUserFirstName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,36 +82,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Yeni Kullanıcı Ekle";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(24, 76);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Soy Adı";
-            // 
-            // txtUserFirstName
-            // 
-            this.txtUserFirstName.Location = new System.Drawing.Point(73, 40);
-            this.txtUserFirstName.Name = "txtUserFirstName";
-            this.txtUserFirstName.Size = new System.Drawing.Size(156, 20);
-            this.txtUserFirstName.TabIndex = 2;
-            // 
-            // txtUserLastName
-            // 
-            this.txtUserLastName.Location = new System.Drawing.Point(73, 73);
-            this.txtUserLastName.Name = "txtUserLastName";
-            this.txtUserLastName.Size = new System.Drawing.Size(156, 20);
-            this.txtUserLastName.TabIndex = 2;
-            // 
-            // txtUserPassword
-            // 
-            this.txtUserPassword.Location = new System.Drawing.Point(73, 105);
-            this.txtUserPassword.Name = "txtUserPassword";
-            this.txtUserPassword.Size = new System.Drawing.Size(156, 20);
-            this.txtUserPassword.TabIndex = 2;
-            // 
             // btnAddUser
             // 
             this.btnAddUser.Location = new System.Drawing.Point(154, 142);
@@ -121,6 +91,37 @@
             this.btnAddUser.Text = "EKLE";
             this.btnAddUser.UseVisualStyleBackColor = true;
             this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
+            // 
+            // txtUserPassword
+            // 
+            this.txtUserPassword.Location = new System.Drawing.Point(73, 105);
+            this.txtUserPassword.Name = "txtUserPassword";
+            this.txtUserPassword.Size = new System.Drawing.Size(156, 20);
+            this.txtUserPassword.TabIndex = 2;
+            this.txtUserPassword.UseSystemPasswordChar = true;
+            // 
+            // txtUserLastName
+            // 
+            this.txtUserLastName.Location = new System.Drawing.Point(73, 73);
+            this.txtUserLastName.Name = "txtUserLastName";
+            this.txtUserLastName.Size = new System.Drawing.Size(156, 20);
+            this.txtUserLastName.TabIndex = 2;
+            // 
+            // txtUserFirstName
+            // 
+            this.txtUserFirstName.Location = new System.Drawing.Point(73, 40);
+            this.txtUserFirstName.Name = "txtUserFirstName";
+            this.txtUserFirstName.Size = new System.Drawing.Size(156, 20);
+            this.txtUserFirstName.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(24, 76);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Soy Adı";
             // 
             // frmUsers
             // 
