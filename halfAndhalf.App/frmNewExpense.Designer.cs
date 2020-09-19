@@ -51,6 +51,7 @@
             this.btnAdd.TabIndex = 5;
             this.btnAdd.Text = "EKLE";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtExpenseName
             // 

@@ -7,16 +7,16 @@ namespace halfAndhalf.App
 {
     public partial class frmUsers : Form
     {
-        public BindingList<Users> myUsers;
+        public BindingList<Users> myUsersKullanıcılar;
         public frmUsers(BindingList<Users> myUsers)
         {
             InitializeComponent();
-            this.myUsers = myUsers;
+            this.myUsersKullanıcılar = myUsers;
         }
 
         private void frmUsers_Load(object sender, EventArgs e)
         {
-            lstInfoUsers.DataSource = myUsers;
+            lstInfoUsers.DataSource = myUsersKullanıcılar;
         }
 
         private void btnAddUser_Click(object sender, EventArgs e)
@@ -27,7 +27,7 @@ namespace halfAndhalf.App
                 LastName = txtUserLastName.Text,
                 Password = txtUserPassword.Text
             };
-            myUsers.Add(newUser);
+            myUsersKullanıcılar.Add(newUser);
         }
     }
 }

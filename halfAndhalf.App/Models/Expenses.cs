@@ -1,13 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace halfAndhalf.App.Models
 {
     public class Expenses
     {
+        public Expenses()
+        {
+
+        }
         public Expenses(string expenseName, DateTime expenseDate, double expensePrice, string expenseExplanation, Users userOwnExpense)
         {
             ExpenseName = expenseName;
@@ -22,6 +22,11 @@ namespace halfAndhalf.App.Models
         public string ExpenseExplanation { get; set; }
         public Users UserOwnExpense { get; set; }
 
+
+        public override string ToString()
+        {
+            return $"{UserOwnExpense}      ({ExpenseName})";
+        }
     }
 
 
