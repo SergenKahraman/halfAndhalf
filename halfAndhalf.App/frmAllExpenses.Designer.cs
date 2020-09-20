@@ -31,17 +31,17 @@
             this.lstDisplayAllExpenses = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.grpDetailsOfExpense = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtExplanationD = new System.Windows.Forms.TextBox();
+            this.txtExpensePriceD = new System.Windows.Forms.TextBox();
+            this.txtExpenseDateD = new System.Windows.Forms.TextBox();
+            this.txtExpenseNameD = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.txtExpenseNameD = new System.Windows.Forms.TextBox();
-            this.txtExpenseDateD = new System.Windows.Forms.TextBox();
-            this.txtExpensePriceD = new System.Windows.Forms.TextBox();
-            this.txtExplanationD = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.grpDetailsOfExpense.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,6 +84,58 @@
             this.grpDetailsOfExpense.TabStop = false;
             this.grpDetailsOfExpense.Text = "Detaylar";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(323, 191);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(22, 13);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "TL";
+            // 
+            // txtExplanationD
+            // 
+            this.txtExplanationD.Location = new System.Drawing.Point(126, 234);
+            this.txtExplanationD.Multiline = true;
+            this.txtExplanationD.Name = "txtExplanationD";
+            this.txtExplanationD.ReadOnly = true;
+            this.txtExplanationD.Size = new System.Drawing.Size(223, 79);
+            this.txtExplanationD.TabIndex = 18;
+            // 
+            // txtExpensePriceD
+            // 
+            this.txtExpensePriceD.Location = new System.Drawing.Point(126, 186);
+            this.txtExpensePriceD.Name = "txtExpensePriceD";
+            this.txtExpensePriceD.ReadOnly = true;
+            this.txtExpensePriceD.Size = new System.Drawing.Size(196, 20);
+            this.txtExpensePriceD.TabIndex = 18;
+            this.txtExpensePriceD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtExpenseDateD
+            // 
+            this.txtExpenseDateD.Location = new System.Drawing.Point(126, 136);
+            this.txtExpenseDateD.Name = "txtExpenseDateD";
+            this.txtExpenseDateD.ReadOnly = true;
+            this.txtExpenseDateD.Size = new System.Drawing.Size(223, 20);
+            this.txtExpenseDateD.TabIndex = 18;
+            // 
+            // txtExpenseNameD
+            // 
+            this.txtExpenseNameD.Location = new System.Drawing.Point(126, 89);
+            this.txtExpenseNameD.Name = "txtExpenseNameD";
+            this.txtExpenseNameD.ReadOnly = true;
+            this.txtExpenseNameD.Size = new System.Drawing.Size(223, 20);
+            this.txtExpenseNameD.TabIndex = 18;
+            // 
+            // txtUserName
+            // 
+            this.txtUserName.Location = new System.Drawing.Point(126, 39);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.ReadOnly = true;
+            this.txtUserName.Size = new System.Drawing.Size(223, 20);
+            this.txtUserName.TabIndex = 18;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -114,16 +166,6 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "Açıklama";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(29, 186);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 16);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "İşlem Tutarı";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -134,57 +176,15 @@
             this.label2.TabIndex = 16;
             this.label2.Text = "Kullanıcı";
             // 
-            // txtUserName
+            // label6
             // 
-            this.txtUserName.Location = new System.Drawing.Point(126, 39);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.ReadOnly = true;
-            this.txtUserName.Size = new System.Drawing.Size(223, 20);
-            this.txtUserName.TabIndex = 18;
-            // 
-            // txtExpenseNameD
-            // 
-            this.txtExpenseNameD.Location = new System.Drawing.Point(126, 89);
-            this.txtExpenseNameD.Name = "txtExpenseNameD";
-            this.txtExpenseNameD.ReadOnly = true;
-            this.txtExpenseNameD.Size = new System.Drawing.Size(223, 20);
-            this.txtExpenseNameD.TabIndex = 18;
-            // 
-            // txtExpenseDateD
-            // 
-            this.txtExpenseDateD.Location = new System.Drawing.Point(126, 136);
-            this.txtExpenseDateD.Name = "txtExpenseDateD";
-            this.txtExpenseDateD.ReadOnly = true;
-            this.txtExpenseDateD.Size = new System.Drawing.Size(223, 20);
-            this.txtExpenseDateD.TabIndex = 18;
-            // 
-            // txtExpensePriceD
-            // 
-            this.txtExpensePriceD.Location = new System.Drawing.Point(126, 186);
-            this.txtExpensePriceD.Name = "txtExpensePriceD";
-            this.txtExpensePriceD.ReadOnly = true;
-            this.txtExpensePriceD.Size = new System.Drawing.Size(196, 20);
-            this.txtExpensePriceD.TabIndex = 18;
-            this.txtExpensePriceD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtExplanationD
-            // 
-            this.txtExplanationD.Location = new System.Drawing.Point(126, 234);
-            this.txtExplanationD.Multiline = true;
-            this.txtExplanationD.Name = "txtExplanationD";
-            this.txtExplanationD.ReadOnly = true;
-            this.txtExplanationD.Size = new System.Drawing.Size(223, 79);
-            this.txtExplanationD.TabIndex = 18;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(328, 186);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(22, 13);
-            this.label7.TabIndex = 19;
-            this.label7.Text = "TL";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(29, 186);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 16);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "İşlem Tutarı";
             // 
             // frmAllExpenses
             // 

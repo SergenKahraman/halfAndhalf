@@ -16,6 +16,7 @@ namespace halfAndhalf.App
 
         private void frmAllExpenses_Load(object sender, EventArgs e)
         {
+            
             lstDisplayAllExpenses.DataSource = myExpensesTumIslemler;
             lstDisplayAllExpenses.SelectedIndex = -1;
             grpDetailsOfExpense.Visible = false;

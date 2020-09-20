@@ -15,6 +15,7 @@ namespace halfAndhalf.App.Models
             ExpensePrice = expensePrice;
             ExpenseExplanation = expenseExplanation;
             UserOwnExpense = userOwnExpense;
+            userOwnExpense.TotalPrice += ExpensePrice;
         }
         public string ExpenseName { get; set; }
         public DateTime ExpenseDate { get; set; }
