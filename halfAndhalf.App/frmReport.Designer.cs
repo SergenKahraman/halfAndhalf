@@ -28,13 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmReport));
             this.lstUserForReport = new System.Windows.Forms.ListBox();
             this.lstPriceForReport = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lstDisplayResult = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtTotalPrice = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.lstDisplayResult = new System.Windows.Forms.ListBox();
+            this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +49,7 @@
             this.lstUserForReport.Name = "lstUserForReport";
             this.lstUserForReport.Size = new System.Drawing.Size(136, 316);
             this.lstUserForReport.TabIndex = 0;
+            this.lstUserForReport.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lstUserForReport_MouseMove);
             // 
             // lstPriceForReport
             // 
@@ -65,6 +69,15 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Alacak Verecek";
+            // 
+            // lstDisplayResult
+            // 
+            this.lstDisplayResult.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.lstDisplayResult.FormattingEnabled = true;
+            this.lstDisplayResult.Location = new System.Drawing.Point(17, 34);
+            this.lstDisplayResult.Name = "lstDisplayResult";
+            this.lstDisplayResult.Size = new System.Drawing.Size(310, 160);
+            this.lstDisplayResult.TabIndex = 0;
             // 
             // label1
             // 
@@ -93,14 +106,11 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "TL";
             // 
-            // lstDisplayResult
+            // ımageList1
             // 
-            this.lstDisplayResult.BackColor = System.Drawing.SystemColors.MenuBar;
-            this.lstDisplayResult.FormattingEnabled = true;
-            this.lstDisplayResult.Location = new System.Drawing.Point(17, 34);
-            this.lstDisplayResult.Name = "lstDisplayResult";
-            this.lstDisplayResult.Size = new System.Drawing.Size(310, 160);
-            this.lstDisplayResult.TabIndex = 0;
+            this.ımageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ımageList1.ImageStream")));
+            this.ımageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.ımageList1.Images.SetKeyName(0, "GO.png");
             // 
             // frmReport
             // 
@@ -135,5 +145,6 @@
         private System.Windows.Forms.TextBox txtTotalPrice;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox lstDisplayResult;
+        private System.Windows.Forms.ImageList ımageList1;
     }
 }

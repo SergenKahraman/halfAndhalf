@@ -8,18 +8,29 @@ namespace halfAndhalf.App
     public partial class frmAllExpenses : Form
     {
         private BindingList<Expenses> myExpensesTumIslemler;
+        public int DesiredSelectedIndex { get; set; }
+        
         public frmAllExpenses(BindingList<Expenses> myExpenses)
         {
             InitializeComponent();
             myExpensesTumIslemler = myExpenses;
+            DesiredSelectedIndex = -1;
         }
 
         private void frmAllExpenses_Load(object sender, EventArgs e)
         {
             
             lstDisplayAllExpenses.DataSource = myExpensesTumIslemler;
-            lstDisplayAllExpenses.SelectedIndex = -1;
+            lstDisplayAllExpenses.SelectedIndex = DesiredSelectedIndex;
             grpDetailsOfExpense.Visible = false;
+
+
+
+            if (DesiredSelectedIndex > -1)
+            {
+                lstDisplayAllExpenses_SelectedIndexChanged(null, null);
+            }
+            
         }
 
         private void lstDisplayAllExpenses_SelectedIndexChanged(object sender, EventArgs e)
@@ -36,8 +47,6 @@ namespace halfAndhalf.App
                 txtExplanationD.Text = selectedExpense.ExpenseExplanation;
 
             }
-            
-
         }
     }
 }
