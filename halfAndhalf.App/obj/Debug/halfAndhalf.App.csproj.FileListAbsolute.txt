@@ -1,0 +1,14 @@
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\bin\Debug\halfAndhalf.App.exe.config
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\bin\Debug\halfAndhalf.App.exe
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\bin\Debug\halfAndhalf.App.pdb
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.csprojAssemblyReference.cache
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.Properties.Resources.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.csproj.GenerateResource.cache
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.csproj.CoreCompileInputs.cache
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.exe
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.pdb
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmMain.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmNewExpense.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmUsers.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmAllExpenses.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmReport.resources
