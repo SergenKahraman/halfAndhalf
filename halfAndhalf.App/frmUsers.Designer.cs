@@ -28,7 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lstInfoUsers = new System.Windows.Forms.ListBox();
+            this.ctxUsers = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ctxButtonDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -37,16 +40,33 @@
             this.txtUserLastName = new System.Windows.Forms.TextBox();
             this.txtUserFirstName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.ctxUsers.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lstInfoUsers
             // 
+            this.lstInfoUsers.ContextMenuStrip = this.ctxUsers;
             this.lstInfoUsers.FormattingEnabled = true;
             this.lstInfoUsers.Location = new System.Drawing.Point(332, 41);
             this.lstInfoUsers.Name = "lstInfoUsers";
             this.lstInfoUsers.Size = new System.Drawing.Size(263, 355);
             this.lstInfoUsers.TabIndex = 0;
+            this.lstInfoUsers.MouseUp += new System.Windows.Forms.MouseEventHandler(this.lstInfoUsers_MouseUp);
+            // 
+            // ctxUsers
+            // 
+            this.ctxUsers.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ctxButtonDelete});
+            this.ctxUsers.Name = "ctxUsers";
+            this.ctxUsers.Size = new System.Drawing.Size(181, 48);
+            // 
+            // ctxButtonDelete
+            // 
+            this.ctxButtonDelete.Name = "ctxButtonDelete";
+            this.ctxButtonDelete.Size = new System.Drawing.Size(180, 22);
+            this.ctxButtonDelete.Text = "Kullanıcıyı Sil";
+            this.ctxButtonDelete.Click += new System.EventHandler(this.ctxButtonDelete_Click);
             // 
             // label1
             // 
@@ -134,6 +154,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Kullancılar";
             this.Load += new System.EventHandler(this.frmUsers_Load);
+            this.ctxUsers.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -151,5 +172,7 @@
         private System.Windows.Forms.TextBox txtUserLastName;
         private System.Windows.Forms.TextBox txtUserFirstName;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ContextMenuStrip ctxUsers;
+        private System.Windows.Forms.ToolStripMenuItem ctxButtonDelete;
     }
 }

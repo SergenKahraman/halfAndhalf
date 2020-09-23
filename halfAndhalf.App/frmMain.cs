@@ -31,7 +31,7 @@ namespace halfAndhalf.App
 
         private void btnOpenThe_frmUsers_Click(object sender, EventArgs e)
         {
-            var frmUsersHelper = new frmUsers(myUsers);
+            var frmUsersHelper = new frmUsers(myUsers, myExpenses);
             frmUsersHelper.ShowDialog();
         }
 
