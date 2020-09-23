@@ -23,10 +23,10 @@ namespace halfAndhalf.App
             {
                 Size = new Size(18, 18),
                 Visible = false,
-                BackgroundImage = Image.FromFile("C:\\Users\\SERGEN\\Desktop\\halfAndhalf\\halfAndhalf.App\\bin\\Debug\\GO.png"),
-                BackgroundImageLayout = ImageLayout.Stretch
-                //ImageList = ımageList1, bunu denemek için yaptım
-                //ImageIndex = 0,
+                //BackgroundImage = Image.FromFile("c:\\users\\sergen\\desktop\\halfandhalf\\halfandhalf.app\\bin\\debug\\go.png"),
+                //BackgroundImageLayout = ImageLayout.Stretch
+                ImageList = ımageList1,
+                ImageIndex = 0
             };
             
             Controls.Add(NewButton);
