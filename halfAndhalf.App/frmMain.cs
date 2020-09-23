@@ -15,6 +15,13 @@ namespace halfAndhalf.App
             myUsers = new BindingList<Users>();
             myExpenses = new BindingList<Expenses>();
         }
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            GetLoad();
+            var frmSecurtyHelper = new frmSecurty(myUsers);
+            frmSecurtyHelper.ShowDialog();
+            //test amaçlıdır
+        }
 
         private void btnOpenThe_frmNewExpense_Click(object sender, EventArgs e)
         {
@@ -28,10 +35,6 @@ namespace halfAndhalf.App
             frmUsersHelper.ShowDialog();
         }
 
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-            GetLoad(); //test amaçlıdır
-        }
 
 
         

@@ -98,8 +98,6 @@ namespace halfAndhalf.App
                 NewButton.Visible = false;
             }
            
-
-            //
         }
     }
 }

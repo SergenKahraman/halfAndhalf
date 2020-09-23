@@ -12,3 +12,4 @@ C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.fr
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmUsers.resources
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmAllExpenses.resources
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmReport.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmSecurty.resources
