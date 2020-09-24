@@ -7,9 +7,9 @@ namespace halfAndhalf.App
 {
     public partial class frmNewExpense : Form
     {
-        public BindingList<Users> myUsersYeniIslem;
+        public BindingList<Persons> myUsersYeniIslem;
         public BindingList<Expenses> myExpensesYeniIslem;
-        public frmNewExpense(BindingList<Users> myUsers, BindingList<Expenses> myExpenses)
+        public frmNewExpense(BindingList<Persons> myUsers, BindingList<Expenses> myExpenses)
         {
             InitializeComponent();
             this.myUsersYeniIslem = myUsers;
@@ -24,7 +24,7 @@ namespace halfAndhalf.App
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            var newExpenses = new Expenses(txtExpenseName.Text, dtpExpenseDate.Value, (double)nudExpensePrice.Value, txtExplanation.Text, (Users)cmbUsers.SelectedItem);
+            var newExpenses = new Expenses(txtExpenseName.Text, dtpExpenseDate.Value, (double)nudExpensePrice.Value, txtExplanation.Text, (Persons)cmbUsers.SelectedItem);
 
             myExpensesYeniIslem.Add(newExpenses);
             this.Close();

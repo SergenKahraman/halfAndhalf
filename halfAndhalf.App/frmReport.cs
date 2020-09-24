@@ -11,10 +11,10 @@ namespace halfAndhalf.App
     public partial class frmReport : Form
     {
         private BindingList<Expenses> myExpensesRapor;
-        private BindingList<Users> myUsersRapor;
+        private BindingList<Persons> myUsersRapor;
 
         private Button NewButton;
-        public frmReport(BindingList<Expenses> myExpenses, BindingList<Users> myUsers)
+        public frmReport(BindingList<Expenses> myExpenses, BindingList<Persons> myUsers)
         {
             InitializeComponent();
             myExpensesRapor = myExpenses;

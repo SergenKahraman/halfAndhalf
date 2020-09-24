@@ -79,14 +79,14 @@
     <Compile Include="frmSecurty.Designer.cs">
       <DependentUpon>frmSecurty.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmUsers.cs">
+    <Compile Include="frmPersons.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmUsers.Designer.cs">
-      <DependentUpon>frmUsers.cs</DependentUpon>
+    <Compile Include="frmPersons.Designer.cs">
+      <DependentUpon>frmPersons.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Expenses.cs" />
-    <Compile Include="Models\Users.cs" />
+    <Compile Include="Models\Persons.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAllExpenses.resx">
@@ -104,8 +104,8 @@
     <EmbeddedResource Include="frmSecurty.resx">
       <DependentUpon>frmSecurty.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmUsers.resx">
-      <DependentUpon>frmUsers.cs</DependentUpon>
+    <EmbeddedResource Include="frmPersons.resx">
+      <DependentUpon>frmPersons.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -131,7 +131,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\exit.png" />
     <None Include="bin\Debug\GO.png" />
+    <None Include="bin\Debug\frmMain_BackGround.png" />
+    <None Include="bin\Debug\PersonsAddButton.png" />
     <Content Include="money-bag %281%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

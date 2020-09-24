@@ -8,7 +8,7 @@ namespace halfAndhalf.App.Models
         {
 
         }
-        public Expenses(string expenseName, DateTime expenseDate, double expensePrice, string expenseExplanation, Users userOwnExpense)
+        public Expenses(string expenseName, DateTime expenseDate, double expensePrice, string expenseExplanation, Persons userOwnExpense)
         {
             ExpenseName = expenseName;
             ExpenseDate = expenseDate;
@@ -21,7 +21,7 @@ namespace halfAndhalf.App.Models
         public DateTime ExpenseDate { get; set; }
         public double ExpensePrice { get; set; }
         public string ExpenseExplanation { get; set; }
-        public Users UserOwnExpense { get; set; }
+        public Persons UserOwnExpense { get; set; }
 
 
         public override string ToString()

@@ -1,6 +1,6 @@
 ﻿namespace halfAndhalf.App
 {
-    partial class frmUsers
+    partial class frmPersons
     {
         /// <summary>
         /// Required designer variable.
@@ -33,10 +33,8 @@
             this.ctxUsers = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ctxButtonDelete = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnAddUser = new System.Windows.Forms.Button();
-            this.txtUserPassword = new System.Windows.Forms.TextBox();
             this.txtUserLastName = new System.Windows.Forms.TextBox();
             this.txtUserFirstName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,12 +57,12 @@
             this.ctxUsers.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ctxButtonDelete});
             this.ctxUsers.Name = "ctxUsers";
-            this.ctxUsers.Size = new System.Drawing.Size(181, 48);
+            this.ctxUsers.Size = new System.Drawing.Size(144, 26);
             // 
             // ctxButtonDelete
             // 
             this.ctxButtonDelete.Name = "ctxButtonDelete";
-            this.ctxButtonDelete.Size = new System.Drawing.Size(180, 22);
+            this.ctxButtonDelete.Size = new System.Drawing.Size(143, 22);
             this.ctxButtonDelete.Text = "Kullanıcıyı Sil";
             this.ctxButtonDelete.Click += new System.EventHandler(this.ctxButtonDelete_Click);
             // 
@@ -77,48 +75,29 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Adı";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(39, 108);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Şifre";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnAddUser);
-            this.groupBox1.Controls.Add(this.txtUserPassword);
             this.groupBox1.Controls.Add(this.txtUserLastName);
             this.groupBox1.Controls.Add(this.txtUserFirstName);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(35, 41);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(267, 197);
+            this.groupBox1.Size = new System.Drawing.Size(267, 151);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Yeni Kullanıcı Ekle";
+            this.groupBox1.Text = "Yeni Kişi Ekle";
             // 
             // btnAddUser
             // 
-            this.btnAddUser.Location = new System.Drawing.Point(154, 142);
+            this.btnAddUser.Location = new System.Drawing.Point(154, 114);
             this.btnAddUser.Name = "btnAddUser";
             this.btnAddUser.Size = new System.Drawing.Size(75, 23);
             this.btnAddUser.TabIndex = 3;
             this.btnAddUser.Text = "EKLE";
             this.btnAddUser.UseVisualStyleBackColor = true;
             this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
-            // 
-            // txtUserPassword
-            // 
-            this.txtUserPassword.Location = new System.Drawing.Point(73, 105);
-            this.txtUserPassword.Name = "txtUserPassword";
-            this.txtUserPassword.Size = new System.Drawing.Size(156, 20);
-            this.txtUserPassword.TabIndex = 2;
-            this.txtUserPassword.UseSystemPasswordChar = true;
             // 
             // txtUserLastName
             // 
@@ -165,10 +144,8 @@
 
         private System.Windows.Forms.ListBox lstInfoUsers;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnAddUser;
-        private System.Windows.Forms.TextBox txtUserPassword;
         private System.Windows.Forms.TextBox txtUserLastName;
         private System.Windows.Forms.TextBox txtUserFirstName;
         private System.Windows.Forms.Label label3;

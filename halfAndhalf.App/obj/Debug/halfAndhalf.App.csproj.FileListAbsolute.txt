@@ -9,7 +9,7 @@ C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.ex
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.pdb
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmMain.resources
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmNewExpense.resources
-C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmUsers.resources
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmAllExpenses.resources
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmReport.resources
 C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmSecurty.resources
+C:\Users\SERGEN\Desktop\halfAndhalf\halfAndhalf.App\obj\Debug\halfAndhalf.App.frmPersons.resources

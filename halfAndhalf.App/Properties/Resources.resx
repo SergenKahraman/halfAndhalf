@@ -121,4 +121,13 @@
   <data name="GO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\GO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PersonsAddButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\PersonsAddButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_BackGround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\frmMain_BackGround.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

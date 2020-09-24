@@ -5,11 +5,11 @@ using System.Windows.Forms;
 
 namespace halfAndhalf.App
 {
-    public partial class frmUsers : Form
+    public partial class frmPersons : Form
     {
-        public BindingList<Users> myUsersKullanıcılar;
+        public BindingList<Persons> myUsersKullanıcılar;
         public BindingList<Expenses> myExpensesKullanıcılar;
-        public frmUsers(BindingList<Users> myUsers, BindingList<Expenses> myExpenses)
+        public frmPersons(BindingList<Persons> myUsers, BindingList<Expenses> myExpenses)
         {
             InitializeComponent();
             this.myUsersKullanıcılar = myUsers;
@@ -19,17 +19,20 @@ namespace halfAndhalf.App
         private void frmUsers_Load(object sender, EventArgs e)
         {
             lstInfoUsers.DataSource = myUsersKullanıcılar;
+            lstInfoUsers.SelectedIndex = -1;
         }
 
         private void btnAddUser_Click(object sender, EventArgs e)
         {
-            var newUser = new Users
+            var newUser = new Persons
             {
                 FirstName = txtUserFirstName.Text,
                 LastName = txtUserLastName.Text,
-                Password = txtUserPassword.Text
             };
             myUsersKullanıcılar.Add(newUser);
+            txtUserFirstName.Clear();
+            txtUserLastName.Clear();
+            txtUserFirstName.Focus();
         }
 
         private void lstInfoUsers_MouseUp(object sender, MouseEventArgs e)
@@ -49,7 +52,7 @@ namespace halfAndhalf.App
             var result = MessageBox.Show("Emin misin?", "UYARI", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                var selectedUser = lstInfoUsers.SelectedItem as Users;
+                var selectedUser = lstInfoUsers.SelectedItem as Persons;
                 var myExpensesKullanıcılarCopy = new Expenses[myExpensesKullanıcılar.Count];
                 myExpensesKullanıcılar.CopyTo(myExpensesKullanıcılarCopy, 0);
                 foreach (var expense in myExpensesKullanıcılarCopy)

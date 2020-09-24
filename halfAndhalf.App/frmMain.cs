@@ -7,12 +7,12 @@ namespace halfAndhalf.App
 {
     public partial class frmMain : Form
     {
-        public BindingList<Users> myUsers;
+        public BindingList<Persons> myUsers;
         public BindingList<Expenses> myExpenses;
         public frmMain()
         {
             InitializeComponent();
-            myUsers = new BindingList<Users>();
+            myUsers = new BindingList<Persons>();
             myExpenses = new BindingList<Expenses>();
         }
         private void frmMain_Load(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace halfAndhalf.App
 
         private void btnOpenThe_frmUsers_Click(object sender, EventArgs e)
         {
-            var frmUsersHelper = new frmUsers(myUsers, myExpenses);
+            var frmUsersHelper = new frmPersons(myUsers, myExpenses);
             frmUsersHelper.ShowDialog();
         }
 
@@ -44,10 +44,10 @@ namespace halfAndhalf.App
         ///     . Bu Method test amaçlı veri kaynağıdır..
         private void GetLoad()
         {
-            myUsers.Add(new Users { FirstName = "Sergen", LastName = "Kahraman", Password = "sk1234" });
-            myUsers.Add(new Users { FirstName = "Hami", LastName = "Aktaş", Password = "ha1234" });
-            myUsers.Add(new Users { FirstName = "Gamze", LastName = "Uysal", Password = "gu1234" });
-            myUsers.Add(new Users { FirstName = "Emre", LastName = "Ertuğrul", Password = "eu1234" });
+            myUsers.Add(new Persons { FirstName = "Gamze", LastName = "Uysal (me)"});
+            myUsers.Add(new Persons { FirstName = "Sergen", LastName = "Kahraman"});
+            myUsers.Add(new Persons { FirstName = "Hami", LastName = "Aktaş"});
+            myUsers.Add(new Persons { FirstName = "Emre", LastName = "Ertuğrul"});
             myExpenses.Add(new Expenses("Ev Gideri", DateTime.Now.AddDays(-10), 225, "Sebze ve meyve aldım.", myUsers[0]));
             myExpenses.Add(new Expenses("Fatura", DateTime.Now.AddDays(-2), 100, "DOğalgaz ve Elektrik ödedim.", myUsers[1]));
             myExpenses.Add(new Expenses("Kafe", DateTime.Now.AddDays(-2), 175, "Starbucks' taki hesabı ödedim.", myUsers[2]));
@@ -64,6 +64,11 @@ namespace halfAndhalf.App
         {
             var frmReportHelper = new frmReport(myExpenses, myUsers);
             frmReportHelper.ShowDialog();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
